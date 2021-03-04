@@ -1,4 +1,4 @@
-package br.com.zup.Produto;
+package br.com.zup.produto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
