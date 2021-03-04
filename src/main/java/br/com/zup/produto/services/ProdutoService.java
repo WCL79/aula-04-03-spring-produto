@@ -9,4 +9,13 @@ import java.util.List;
 @Service
 public class ProdutoService {
     private static List<Produto> produtos = new ArrayList<>();
-}
+
+        public void adicionarProduto(Produto produto){
+            produtos.add(produto);
+        }
+
+        public List<Produto> pegarProdutos(){
+            return produtos;
+        }
+
+    }
